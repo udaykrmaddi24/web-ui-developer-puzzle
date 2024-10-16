@@ -19,6 +19,10 @@
     flex-direction: column;
     justify-content: center;
   }
+
+  > .reading-list-item--buttons{
+    flex-direction: row;
+  }
 }
 
 .reading-list-item--cover {
@@ -43,5 +47,13 @@
 .empty {
   font-weight: 100;
   font-size: 1rem;
+  color: $gray60;
+}
+
+.finished{
+  color: green;
+}
+
+.notfinished{
   color: $gray60;
 }

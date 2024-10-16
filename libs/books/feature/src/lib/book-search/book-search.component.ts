@@ -57,4 +57,8 @@ export class BookSearchComponent implements OnInit {
       this.store.dispatch(clearSearch());
     }
   }
+
+  getBtnName(finished){
+    return finished ? "Finished" : "Want to Read";
+  }
 }
